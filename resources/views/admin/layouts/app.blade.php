@@ -1,0 +1,5 @@
+    @include('admin.layouts.head')
+    @include('admin.layouts.header')
+    @include('admin.layouts.sidenav')
+    @yield('content')
+    @include('admin.layouts.footer')
